@@ -1,0 +1,39 @@
+.t_decor1{
+    text-decoration: underline;
+}
+
+.t_decor2{
+    text-decoration: overline;
+}
+
+.t_decor3{
+    text-decoration: line-through;
+}
+
+.t_decor4{
+    text-decoration: underline overline line-through;
+}
+
+
+.t_indent{
+    text-indent: 160px;
+}
+
+.letter_spacing{
+    letter-spacing: 20px;
+}
+
+.word_spacing{
+    word-spacing: 30px;
+}
+
+.line_h{
+    line-height: 30px;
+}
+
+.t_shadow{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(4, 48, 68);
+    text-shadow: 10px 4px 8px rgb(212, 237, 243);
+}
