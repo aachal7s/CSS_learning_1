@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media(min-widht:320px) and (max-width:767px) {
+            body {
+                font-size: 200x;
+                background-color: blue;
+            }
+
+            p {
+                color: white;
+            }
+
+            h1,
+            h3 {
+                color: #3ef748;
+            }
+        }
+
+
+        @media(min-widht:768px) {
+            body {
+                font-size: 200x;
+                background-color: yellow;
+            }
+
+            p {
+                color: white;
+            }
+
+            h1,
+            h3 {
+                color: rgb(58, 218, 26);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>CSS media querry</h1>
+    <p>background color change acording to the viewport change</p><br><br>
+
+
+    <h3>smartphone - <span class="details">from 320px and up</span>(min-width :320px )
+        <p>blue</p><br><br>
+    </h3>
+
+    <h3>tablets,ipad(potraits) - <span class="details">from 768px and up</span>(min-width :768px )
+        <p>blue</p><br><br>
+    </h3>
+
+    <h3>tablets,ipad(landscape) - <span class="details">from 320px and up</span>(min-width :1024px )
+        <p>orange</p><br><br>
+    </h3>
+
+    <h3>desktop and laptop- <span class="details">from 1224px and up</span>(min-width :1224px )
+        <p>purple</p><br><br>
+    </h3>
+
+    <h3>large screen - <span class="details">from 1824px and up</span>(min-width :1824px )
+        <p>red</p><br><br>
+    </h3>
+</body>
+
+</html>
